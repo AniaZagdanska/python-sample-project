@@ -1,0 +1,8 @@
+from random import normalvariate
+normalvariate(3,6)
+import numpy as np
+#a = np.random.random(size=100)
+#print(a)
+import scipy.stats as stats
+x = stats.norm.rvs(size=100)
+print(x)
